@@ -7,7 +7,7 @@ a {
 }
 
 .header-container {
-    background: linear-gradient(90deg, rgba(60, 62, 63, 0.3) 0%, rgba(84, 88, 88, 0.3) 100%), url(/img/bg9.jpg);
+    background: linear-gradient(90deg, rgba(60, 62, 63, 0.7) 0%, rgba(84, 88, 88, 0.5) 100%), url(/img/sign.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -45,198 +45,60 @@ a {
     padding: 20px;
     font-size: 30px;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .title-container h1 {
     font-weight: 800;
     color: white;
 }
-/*SEARCH BAR*/
-.search-bar {
-    padding: 30px;
-    margin-bottom: 30px;
-    
-}
-.search-bar-container {
+/*MAP*/
+.map-container {
     display: flex;
-    align-items: center;
-    padding: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    column-gap: 10px;
-    background-color: white;
-    border-radius: 40px;
-}
-.search-input {
-    border: none;
-    padding: 5px;
-}
-/*SERVICES*/
-.services {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    background-color: white;
-    text-align: center;
-}
-.services-title {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    background-color: rgb(177, 17, 17);
-    border-bottom: solid 4px black;
-    padding: 15px;
-}
-
-.services img {
-    width: 300px;
-    height: 300px;
-}
-
-.service-text {
-    text-align: center;
-}
-.service-link {
+    column-gap: 40px;
     padding: 10px;
-    margin-top: 10px;
-}
-.service {
-    background-color: white;
-    padding: 20px;
-}
-.service button {
-    margin-top: 15px;
-}
-
-
-/*CHEF SECTION*/
-.chef-section {
-    display: grid;
-    grid-template-columns: 60% 40%;
+    margin-bottom: 30px;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white;
+    background-color: black;
 }
-.chef-section img {
-    width: 100%;
-    height: 600px;
+.text-div {
+    color: white;
+    margin-right: 10px;
 }
-.chef-section-img {
-    padding: 20px;
-}
-.chef-section-text {
-    font-weight: 400;
-    font-size: 50px;
-    margin-left: 30px;
-}
-.chef-section-text h3 {
-    color: black;
-}
+/*HTML FORM*/
 
-/*STORE*/
-.store-section {
-    display: grid;
-    grid-template-columns: 40% 60%;
+.form {
+    padding: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: rgb(112, 108, 108);
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white;
 }
-.store-section img {
-    width: 100%;
-    height: 600px;
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    column-gap: 10px;
 }
-.store-section-img {
-    padding: 20px;
-    order: 2;
-}
-.store-section-text {
-    font-size: 50px;
-    margin-left: 30px;
-    font-weight: 400;
-}
-
-.store-section-text h3 {
+label {
+    font-size: 30px;
+    font-weight: 600;
     color: black;
+    margin-bottom: 10px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
 }
 
 .btn {
-    padding: 15px;
-    font-size: 20px;
-    color: white;
-    background-color: rgb(177, 17, 17);
-    border-radius: 20px;
-    border: none;
-}
-/*DESSERTS*/
-.des-container {
-    background-image: url(/img/bg4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.des-title {
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
-    border-bottom: solid 4px black;
-    color: rgb(156, 9, 9);
+   background-color: red;
+   color: white;
+   border: none;
+   padding: 15px;
+   width: 100%;
 }
 
-.des-section {
-    gap: 10px;
-    display: grid;
-    justify-items: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "s1   s2   s3"
-    "s4   s5   s6";
-}
-.s1 {
-    grid-area: s1;
-}
-.s2 {
-   grid-area: s2;
-}
-.s3 {
-    grid-area: s3;
-}
-.s4 {
-    grid-area: s4;
-}
-.s5 {
-    grid-area: s5;
-}
-.s6 {
-    grid-area: s6;
-}
-.des-section img {
-    width: 500px;
-    height: 500px;
-}
-
-
-.des-div-text {
-    width:auto;
-    height: auto;
-}
-.des-div {
-    margin: 40px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-.des-div-text {
-    font-size: 30px;
-    padding: 5px;
-    background-color: white;
-}
 /*APP SECTION*/
 .footer-apps {
     display: flex;
