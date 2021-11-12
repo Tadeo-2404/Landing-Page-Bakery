@@ -134,93 +134,29 @@ footer {
         align-items: center;
         column-gap: 10px;
     }
+    .nav-bar {
+        flex-direction: column;
+    }
     .nav-container a {
         font-size: 20px;
         margin-bottom: 20px;
+    }
+    .logo-nav img {
+        height: 80px;
     }
     .title-container {
         padding: 20px;
         font-size: 20px;
         padding: 30px;
+        padding-top: 0;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 0px;
     }
-    .services {
-        display: flex;
+    .staff-container {
         flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 20px;
-        background-color: rgb(155, 150, 150);
-        text-align: center;
     }
-    .chef-section {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        background: linear-gradient(90deg, rgba(60, 62, 63, 0.3) 0%, rgba(84, 88, 88, 0.3) 100%), url(/img/bg6.jpg);
-    }
-    .chef-section img {
-        width: 300px;
-        height: 300px;
-    }
-    .chef-section-img {
-        padding: 20px;
-        order: 2;
-    }
-    .chef-section-text {
-        font-weight: 400;
-        font-size: 30px;
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-    .store-section {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        background: linear-gradient(90deg, rgba(60, 62, 63, 0.3) 0%, rgba(84, 88, 88, 0.3) 100%), url(/img/bg6.jpg);
-    }
-    .store-section img {
-        width: 300px;
-        height: 300px;
-    }
-    .store-section-img {
-        padding: 20px;
-        order: 2;
-    }
-    .store-section-text {
-        font-weight: 400;
-        font-size: 30px;
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-    .btn {
-        margin-top: 10px;
-        padding: 15px;
-        font-size: 25px;
-        background-color: rgb(163, 158, 158);
-    }
-    
-    .des-section {
-        gap: 10px;
-        display: grid;
-        justify-items: center;
-        align-content: center;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "s1"   
-        "s2"  
-        "s3"   
-        "s4"
-        "s5"   
-        "s6";}
+
+ 
         .footer-apps {
             display: flex;
             flex-direction: column;

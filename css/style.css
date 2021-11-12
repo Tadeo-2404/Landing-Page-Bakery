@@ -270,25 +270,47 @@ footer {
     background-color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MQ*/
 @media (max-width: 768px ) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 0;
+    }
+    .logo-nav img {
+        height: 80px;
+    }
     .nav-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: 10px;
+ 
     }
     .nav-container a {
+        font-size: 60px;
+        margin-bottom: 60px;
+        font-weight: 700;
         font-size: 20px;
-        margin-bottom: 20px;
     }
     .title-container {
         padding: 20px;
+        padding-top: 0;
         font-size: 20px;
-        padding: 30px;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .services {
         display: flex;
@@ -306,7 +328,7 @@ footer {
         justify-content: center;
         text-align: center;
         padding: 20px;
-        background: linear-gradient(90deg, rgba(60, 62, 63, 0.3) 0%, rgba(84, 88, 88, 0.3) 100%), url(/img/bg6.jpg);
+        background-color: white;
     }
     .chef-section img {
         width: 300px;
@@ -329,7 +351,7 @@ footer {
         justify-content: center;
         text-align: center;
         padding: 20px;
-        background: linear-gradient(90deg, rgba(60, 62, 63, 0.3) 0%, rgba(84, 88, 88, 0.3) 100%), url(/img/bg6.jpg);
+        background-color: white;
     }
     .store-section img {
         width: 300px;
@@ -346,11 +368,19 @@ footer {
         margin-bottom: 10px;
     }
     .btn {
-        margin-top: 10px;
         padding: 15px;
-        font-size: 25px;
-        background-color: rgb(163, 158, 158);
+        font-size: 20px;
+        color: white;
+        background-color: rgb(177, 17, 17);
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
     }
+    .des-section img {
+        width: 300px;
+        height: 300px;
+    }
+    
     
     .des-section {
         gap: 10px;
