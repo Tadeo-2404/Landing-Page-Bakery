@@ -28,8 +28,9 @@ a {
 .logo-nav img {
    height: 100px;
 }
+
 .nav-container {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     column-gap: 20px;
     padding: 10px;
@@ -40,6 +41,31 @@ a {
     text-decoration: none;
     font-size: 30px;
 }
+
+/*MENU*/
+
+#menu-icon {
+    display: none;
+}
+
+.menu-nav {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-nav a {
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
  /*HEADER-TILE*/
 .title-container {
     padding: 20px;
@@ -110,19 +136,32 @@ footer {
 
 /*MQ*/
 @media (max-width: 768px ) {
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        column-gap: 10px;
-    }
-    .nav-bar {
-        flex-direction: column;
-    }
-    .logo-nav img {
-        height: 80px;
-    }
+    /*MENU*/ 
+    #menu-icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+}
+.menu-nav {
+    flex-direction: column;
+    font-size: 30px;
+}
+
+/*NAV-BAR*/
+.nav-bar {
+    flex-direction: row;
+    padding: 0;
+}
+.logo-nav img {
+    height: 60px;
+}
+.nav-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
     .nav-container a {
         font-size: 20px;
@@ -132,8 +171,8 @@ footer {
         padding: 20px;
         font-size: 20px;
         padding: 30px;
-        text-align: center;
         padding-top: 0;
+        text-align: center;
         margin-top: 0;
     }
     .btn {
